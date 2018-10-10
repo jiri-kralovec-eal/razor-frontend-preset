@@ -1,0 +1,62 @@
+.header-cont {
+  height: 90vh;
+  background: #F7F7F9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.header-cont h1 {
+  font-weight: bold;
+  color: #563D7C;
+  padding: 0 10%;
+}
+
+.header-cont .buttons-push {
+  margin-top: 3%;
+}
+
+header {
+  background: #F7F7F9;
+}
+
+section {
+  background: #563D7C;
+  height: auto;
+  padding: 3% 0;
+  color: white;
+}
+
+section h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+section ul li {
+  display: block;
+  padding: 20px 0;
+  width: 100%;
+  border-bottom: 2px solid #563D7C;
+}
+
+section ul li:hover {
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+
+section .data {
+  display: none;
+  width: 100%;
+  height: auto;
+  border: 2px solid white;
+  padding: 2% 2%;
+  border-top: none;
+}
+/*# sourceMappingURL=style.css.map */

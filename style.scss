@@ -1,0 +1,48 @@
+.header-cont{
+    height: 90vh;
+    background: #F7F7F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h1{
+        font-weight: bold;
+        color: #563D7C;
+        padding: 0 10%;
+    }
+    .buttons-push{
+        margin-top: 3%;
+    }
+}
+header{
+    background: #F7F7F9;
+}
+section{
+    background: #563D7C;
+    height: auto;
+    padding: 3% 0;
+    color: white;
+    h2{
+        font-weight: bold;
+        text-align: center;
+    }
+    ul li {
+        display: block;
+        padding: 20px 0;
+        width: 100%;
+        border-bottom: 2px solid #563D7C;
+        &:hover{
+            border-bottom: 2px solid white;
+            cursor: pointer;
+        }
+    }
+    .data{
+        display: none;
+        width: 100%;
+        height: auto;
+        border: 2px solid white;
+        padding: 2% 2%;
+        border-top: none;
+
+    }
+}
